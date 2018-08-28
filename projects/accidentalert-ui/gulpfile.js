@@ -120,7 +120,7 @@ gulp.task("copy:libs", ['clean'], function () {
             paths.node_modules + "patternfly/dist/js/**",
             paths.node_modules + "patternfly/node_modules/jquery/dist/**",
 //            paths.node_modules + "patternfly/node_modules/bootstrap/dist/js/**",
-            paths.node_modules + "patternfly/node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"	            paths.node_modules + "bootstrap/dist/js/**",
+            paths.node_modules + "bootstrap/dist/js/**",
 //            paths.node_modules + "patternfly/node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"
             paths.node_modules + "bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"
         ],
